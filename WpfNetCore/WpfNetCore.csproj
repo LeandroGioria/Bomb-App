@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Bomba</AssemblyName>
+    <RootNamespace>WpfNetCore</RootNamespace>
+    <ApplicationIcon>bomb.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\lux.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\lux.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentWPF" Version="0.8.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="3.0.1" />
+    <PackageReference Include="System.Management.Automation" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
