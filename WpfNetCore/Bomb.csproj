@@ -2,11 +2,13 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0-windows10.0.22000.0</TargetFramework>
     <UseWPF>true</UseWPF>
     <AssemblyName>Bomba</AssemblyName>
-    <RootNamespace>WpfNetCore</RootNamespace>
+    <RootNamespace>Bomb</RootNamespace>
     <ApplicationIcon>bomb.ico</ApplicationIcon>
+    <StartupObject>WpfNetCore.App</StartupObject>
+    <Authors>Leandro Gioria</Authors>
   </PropertyGroup>
 
   <ItemGroup>

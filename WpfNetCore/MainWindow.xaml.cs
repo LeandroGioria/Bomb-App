@@ -115,6 +115,9 @@ namespace WpfNetCore
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
+            if (checkDesligar == null || checkHibernar == null)
+                return;
+
             if (checkHibernar.IsChecked == true)
                 checkDesligar.IsChecked = false;
             else
@@ -123,6 +126,9 @@ namespace WpfNetCore
 
         private void CheckDesligar_Checked(object sender, RoutedEventArgs e)
         {
+            if (checkDesligar == null || checkHibernar == null)
+                return;
+
             if (checkDesligar.IsChecked == true)
                 checkHibernar.IsChecked = false;
             else

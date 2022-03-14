@@ -37,7 +37,7 @@
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="CloseCircle" Margin="15"/>
                             <TextBlock Text="Desligar:" VerticalAlignment="Center" Foreground="#FFC7C4CB" />
-                            <CheckBox x:Name="checkDesligar" Margin="10,0,0,0" BorderBrush="Black" Checked="CheckDesligar_Checked">
+                            <CheckBox x:Name="checkDesligar" Margin="10,0,0,0" BorderBrush="Black" Checked="CheckDesligar_Checked" IsChecked="True">
                                 <CheckBox.Resources>
                                     <!--Unchecked state-->
                                     <SolidColorBrush x:Key="MaterialDesignCheckBoxOff" Color="#FF673AB7"/>
@@ -47,7 +47,7 @@
                             </CheckBox>
                             <materialDesign:PackIcon Kind="Sleep" Margin="15"/>
                             <TextBlock Text="Hibernar:" VerticalAlignment="Center" Foreground="#FFC7C4CB"/>
-                            <CheckBox x:Name="checkHibernar" IsChecked="True" Margin="10,0,0,0" Checked="CheckBox_Checked" Foreground="Black" BorderBrush="Black">
+                            <CheckBox x:Name="checkHibernar" Margin="10,0,0,0" Checked="CheckBox_Checked" Foreground="Black" BorderBrush="Black" IsChecked="False">
                                 <CheckBox.Resources>
                                     <!--Unchecked state-->
                                     <SolidColorBrush x:Key="MaterialDesignCheckBoxOff" Color="#FF673AB7"/>
